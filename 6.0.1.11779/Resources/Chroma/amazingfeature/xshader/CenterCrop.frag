@@ -51,7 +51,7 @@ vec3 hsv2rgb(vec3 c) {
     return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);
 }
 
-vec3 hsv2xyz(vec3 hsv) {        //  柱体
+vec3 hsv2xyz(vec3 hsv) {        //  cylinder
     float z = hsv.z;
     float hsvy = hsv.y;
     // float hsvy = pow(hsv.y, 0.5);
@@ -61,7 +61,7 @@ vec3 hsv2xyz(vec3 hsv) {        //  柱体
 }
 
 const float height = SQ3 / 3.0;
-vec3 hsv2xyz2(vec3 hsv) {       //  锥体
+vec3 hsv2xyz2(vec3 hsv) {       //  cone
     float z = hsv.z * height;
     float x = cos(hsv.x * 2.0 * PI) * hsv.y * hsv.z;
     float y = sin(hsv.x * 2.0 * PI) * hsv.y * hsv.z;
@@ -93,7 +93,7 @@ void main() {
         vec3 hsv = rgb2hsv(rgba.rgb);
         vec3 hsv0 = rgb2hsv(selectedColour.rgb);
 
-        //float it = pow(inputIntensity, 0.25);    //  inputIntensity是在[0,1]范围内，用幂函数变换一下
+        //float it = pow(inputIntensity, 0.25);    //  inputIntensity is within [0,1]; apply a power transform
 
         vec3 xyz0 = hsv2xyz(hsv0);
         float intensity = it * (length(xyz0.xy) + 0.4);

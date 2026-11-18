@@ -51,7 +51,7 @@ vec4 baseFun(vec4 baseColor, sampler2D minTex, sampler2D maxTex, float intensity
     return newColor;
 }
 
-// 用于min、max两张LUT图合并的情况，minLUT在上方，maxLUT在下方
+// For merged min/max LUT maps: minLUT on top, maxLUT at the bottom
 vec4 locationEffectByTextureMap(vec4 baseColor, sampler2D LUTtexture, float intensity)
 {
     float slider_progress = abs(intensity)*0.7;
@@ -77,7 +77,7 @@ vec4 locationEffectByTextureMap(vec4 baseColor, sampler2D LUTtexture, float inte
 
     float alpha = fract(blueColor);
     vec4 newColor = vec4(0.0);
-    if (intensity > 0.0) { // 因为对两张LUT图做了合并，上半部分对应于intensity < 0.0的情况，下半部分对应于intensity > 0.0的情况
+    if (intensity > 0.0) { // The two LUT maps are merged: upper half handles intensity < 0.0, lower half handles intensity > 0.0
         texPos1.y = texPos1.y + 0.5;
         texPos2.y = texPos2.y + 0.5;
     }

@@ -37,13 +37,13 @@ end
 
 function SeekModeScript:onUpdate(comp, detalTime)
     if (self.edit_mode) then
-    --测试用
+    --for testing
         local props = comp.entity:getComponent("ScriptComponent").properties
         if props:has("curTime") then
             self:seekToTime(comp, props:get("curTime"))
         end
     else
-    --实际用
+    --for production
         self:seekToTime(comp, self.curTime - self.startTime)
     end
 end

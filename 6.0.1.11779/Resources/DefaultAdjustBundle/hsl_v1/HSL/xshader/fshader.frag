@@ -187,7 +187,7 @@ void main() {
     vec3 PurpleHSL;
     vec3 MagentaHSL;
 
-    // TODO：数值调整移动到业务层
+    // TODO: move value adjustment to the business layer
     RedHSL = vec3(hsl_param_0.x * 0.25, hsl_param_0.y, hsl_param_0.z / 2.7);
     OrangeHSL = vec3(hsl_param_1.x * 0.15, hsl_param_1.y, hsl_param_1.z / 2.7);
     YellowHSL = vec3(hsl_param_2.x * 0.3, hsl_param_2.y, hsl_param_2.z / 2.7);
@@ -233,7 +233,7 @@ void main() {
     if (delta_hsb.y < 0.0) {
         hsb.y = hsb.y * (1.0 + delta_hsb.y);
     } else {
-        delta_hsb.y = delta_hsb.y / 2.0;   // TODO：移到业务层
+        delta_hsb.y = delta_hsb.y / 2.0;   // TODO: move to the business layer
         float temp = hsb.y * (1.0 - delta_hsb.y);
         hsb.y = hsb.y + (hsb.y - temp);
     }

@@ -4,9 +4,9 @@ uniform sampler2D inputImageTexture;
 uniform sampler2D inputImageTexture2;
 uniform sampler2D inputImageTexture3;
 
-// uniform sampler2D uAlbedo;        //基准图
-// uniform sampler2D uSampler;      //原图
-// uniform float slider_progress;      //滑竿
+// uniform sampler2D uAlbedo;        // reference image
+// uniform sampler2D uSampler;      // original image
+// uniform float slider_progress;      // slider
 varying vec2 uv0;
 varying vec2 uRenderSize;
 uniform float intensity;

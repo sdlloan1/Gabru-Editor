@@ -9709,7 +9709,7 @@ class TextAnimationController extends TextBaseAnimationController {
   }
 
   createMotionsForOneProperty(keyframeJson, motionContext, propertyName) {
-    // 应该梳理一个motionsystem和新文字模板关键帧的统一说明文档，还有当前的问题记录
+    // TODO: write a single reference doc for motion system and new text-template keyframes, plus a log of current issues
 
 
     const isPreGroup = propertyName => {

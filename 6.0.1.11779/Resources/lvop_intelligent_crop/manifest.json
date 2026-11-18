@@ -5,10 +5,10 @@
   "plugin": {
     "base": {
       "id": "com.lv.intlcrop",
-      "name": "智能裁剪",
+      "name": "Smart Crop",
       "version": "0.0.1",
       "compatible": ">= 0.0.1",
-      "description": "智能裁剪"
+      "description": "Smart Crop"
     },
     "sdk": {
       "minVersion": "0.0.1"

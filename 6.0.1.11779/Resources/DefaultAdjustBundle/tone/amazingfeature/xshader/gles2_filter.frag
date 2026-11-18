@@ -3,9 +3,9 @@ precision highp float;
 uniform sampler2D _MainTex;
 uniform sampler2D inputImageTexture2;
 
-// uniform sampler2D uAlbedo;        //基准图
-// uniform sampler2D uSampler;      //原图
-// uniform float slider_progress;      //滑竿
+// uniform sampler2D uAlbedo;        // reference image
+// uniform sampler2D uSampler;      // original image
+// uniform float slider_progress;      // slider
 varying vec2 uv0;
 uniform float intensity;
 
