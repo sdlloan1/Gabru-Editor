@@ -1,0 +1,186 @@
+{
+  "version": "1.0.0",
+  "text_to_video_template": [
+    {
+      "id": 1,
+      "text_styles": [
+        {
+          "type": 0,
+          "line_limit": 0,
+          "line_count": 8,
+          "text_material": {
+            "normal_font_id": "349329",
+            "boe_font_id": "349328",
+            "font_size": 15,
+            "font_color": "#ffffff"
+          },
+          "transform": {
+            "x": 0,
+            "y": 0.6544270833333333
+          },
+          "display_mode": 1
+
+        },
+        {
+          "type": 1,
+          "line_limit": 0,
+          "line_count": 7,
+          "text_material": {
+            "normal_font_id": "349329",
+            "boe_font_id": "349328",
+            "font_size": 16.2,
+            "font_color": "#ffffff"
+          },
+          "transform": {
+            "x": 0,
+            "y": 0.043229166666666666
+          }
+        },
+        {
+          "type": 2,
+          "line_limit": 2,
+          "line_count": 11,
+          "text_material": {
+            "normal_font_id": "349329",
+            "boe_font_id": "349328",
+            "font_size": 12.45,
+            "font_color": "#ffffff"
+          },
+          "transform": {
+            "x": 0,
+            "y": -0.5711979166666666
+          }
+        }
+      ],
+      "video_styles": [
+        {
+          "type": 0,
+          "entrance_animation": {
+            "normal_effect_id": "629085",
+            "boe_effect_id": "629084",
+            "threshold": 2000
+          },
+          "transform": {
+            "x": 0,
+            "y": -0.006093750000000024,
+            "scale_x": 1.0,
+            "scale_y": 1.0
+          }
+        },
+        {
+          "type": 1,
+          "entrance_animation": null,
+          "transform": {
+            "x": 0,
+            "y": -0.006093750000000024,
+            "scale_x": 1.0,
+            "scale_y": 1.0
+          }
+        },
+        {
+          "type": 2,
+          "entrance_animation": null,
+          "transform": {
+            "x": 0,
+            "y": -0.006093750000000024,
+            "scale_x": 1.0,
+            "scale_y": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text_styles": [
+        {
+          "type": 0,
+          "line_limit": 0,
+          "line_count": 12,
+          "text_material": {
+            "normal_font_id": "349329",
+            "boe_font_id": "349328",
+            "font_size": 19.95,
+            "font_color": "#ffffff",
+            "border_color": "#000000",
+            "border_width": 0.06
+          },
+          "transform": {
+            "x": 0,
+            "y": 0
+          },
+          "display_mode": 0
+        },
+        {
+          "type": 1,
+          "line_limit": 2,
+          "line_count": 13,
+          "text_material": {
+            "normal_font_id": "349329",
+            "boe_font_id": "349328",
+            "font_size": 8.4,
+            "font_color": "#000000",
+            "border_color": "#ffffff",
+            "border_width": 0.06
+          },
+          "transform": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "type": 2,
+          "line_limit": 0,
+          "line_count": 22,
+          "text_material": {
+            "normal_font_id": "643577",
+            "boe_font_id": "643576",
+            "font_size": 5.85,
+            "font_color": "#ffffff",
+            "border_color": "#000000",
+            "border_width": 0.06
+          },
+          "transform": {
+            "x": 0,
+            "y": -0.7719444444
+          }
+        }
+      ],
+      "video_styles": [
+        {
+          "type": 0,
+          "entrance_animation": {
+            "normal_effect_id": "629085",
+            "boe_effect_id": "629084",
+            "threshold": 2000
+          },
+          "transform": {
+            "x": 0,
+            "y": 0,
+            "scale_x": 1.0,
+            "scale_y": 1.0
+          }
+        },
+        {
+          "type": 1,
+          "entrance_animation": null,
+          "transform": {
+            "x": 0,
+            "y": -0.07222222222,
+            "scale_x": 0.8555555556,
+            "scale_y": 0.8555555556
+          }
+        },
+        {
+          "type": 2,
+          "entrance_animation": null,
+          "transform": {
+            "x": 0,
+            "y": 0,
+            "scale_x": 1.0,
+            "scale_y": 1.0
+          }
+        }
+      ]
+    }
+  ]
+}

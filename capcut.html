@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>English CapCut — setup guide</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 32px 16px 72px;
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background: #0e1014; color: #e8eaee;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 23px; margin: 0 0 6px; }
+  p.sub { margin: 0 0 26px; color: #9aa3b0; font-size: 14px; }
+  .card { background: #171a21; border: 1px solid #262b34; border-radius: 12px; padding: 20px; margin-bottom: 18px; }
+  h2 { font-size: 16px; margin: 0 0 12px; color: #f0f3f8; }
+  h2 span { color: #5f6b7c; font-weight: 600; margin-right: 8px; font-variant-numeric: tabular-nums; }
+  p { margin: 0 0 10px; }
+  ol, ul { margin: 0 0 10px; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  a { color: #7fb0ff; }
+  code, pre {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px;
+  }
+  pre { background: #0b0d11; border: 1px solid #22262e; border-radius: 8px; padding: 12px; overflow-x: auto; margin: 8px 0 12px; color: #c6ccd6; }
+  code { background: #0b0d11; border: 1px solid #22262e; border-radius: 5px; padding: 1px 5px; color: #c6ccd6; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid #22262e; vertical-align: top; }
+  th { color: #9aa3b0; font-weight: 600; font-size: 12.5px; text-transform: uppercase; letter-spacing: .04em; }
+  td:first-child { white-space: nowrap; color: #cfd5de; }
+  td:last-child { color: #e8eaee; }
+  .note { border-left: 3px solid #3d7dff; padding: 2px 0 2px 12px; margin: 12px 0; color: #b9c2cf; font-size: 14px; }
+  .warn { border-left-color: #f0a93b; }
+  .meta { color: #9aa3b0; font-size: 13px; }
+  .back { display: inline-block; margin-bottom: 18px; font-size: 14px; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="/">&larr; Downloads</a>
+  <h1>Switching to English CapCut</h1>
+  <p class="sub">JianyingPro (剪映专业版) and CapCut are the same editor from the same company — CapCut is the international English build. Your editing skills and most of your drafts carry over.</p>
+
+  <div class="card">
+    <h2><span>1</span>What changes, in one table</h2>
+    <table>
+      <tr><th>Now (JianyingPro)</th><th>With CapCut</th></tr>
+      <tr><td>Chinese menus only</td><td>Full English interface, switchable</td></tr>
+      <tr><td>Account required for export / cloud</td><td>Local editing and export work without signing in on most versions</td></tr>
+      <tr><td>Stock library with search</td><td>Same stock video / audio / sticker library, searched in English</td></tr>
+      <tr><td>Effects, filters, transitions</td><td>Same effects, same names in English</td></tr>
+      <tr><td>Drafts in <code>com.lveditor.draft</code></td><td>Identical folder layout — drafts can often be copied across</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2><span>2</span>Install</h2>
+    <ol>
+      <li>Go to <a href="https://www.capcut.com/download" target="_blank" rel="noopener">capcut.com/download</a> and take the <strong>Windows</strong> installer.</li>
+      <li>Run it, finish setup, and open CapCut.</li>
+      <li>Leave the JianyingPro folder you already have untouched until step 4 — you may still want it.</li>
+    </ol>
+    <p class="note warn">If capcut.com says unavailable in your region, the desktop build is still distributed on the official download page — retry from a different network. Do not use “cracked Pro” builds: they replace exactly the files that make drafts and exports work.</p>
+  </div>
+
+  <div class="card">
+    <h2><span>3</span>Switch the interface to English</h2>
+    <ol>
+      <li>In CapCut, click <strong>Settings</strong> (gear icon, upper-right of the home screen).</li>
+      <li>Open <strong>General &rarr; Language</strong>.</li>
+      <li>Pick <strong>English</strong>, then <strong>restart the app</strong> — the change only shows after a restart.</li>
+    </ol>
+    <p class="meta">The home screen in Chinese for this one step: 设置 (Settings) &rarr; 通用 (General) &rarr; 语言 (Language) &rarr; English.</p>
+  </div>
+
+  <div class="card">
+    <h2><span>4</span>Bring your existing drafts over</h2>
+    <p>Both apps keep projects in a folder with the same name, so a copy usually opens:</p>
+    <pre>From: %LOCALAPPDATA%\JianyingPro\User Data\Projects\com.lveditor.draft
+To:   %LOCALAPPDATA%\CapCut\User Data\Projects\com.lveditor.draft</pre>
+    <ol>
+      <li>Close both apps.</li>
+      <li><strong>Back up</strong> the <code>CapCut</code> projects folder first (copy it next to itself).</li>
+      <li>Copy one draft folder — not all of them — into the CapCut folder and open CapCut.</li>
+      <li>If it opens, the rest will too. If it shows missing media or effects, keep that draft in JianyingPro and rebuild it in CapCut.</li>
+    </ol>
+    <p class="note">Draft files carry a version number. A draft made in a much newer JianyingPro than your CapCut may refuse to load — that is expected, not a broken copy.</p>
+  </div>
+
+  <div class="card">
+    <h2><span>5</span>Chinese &rarr; English menu map</h2>
+    <p class="meta">Left is what you see today, right is the same control in CapCut.</p>
+    <table>
+      <tr><th>Chinese</th><th>English in CapCut</th></tr>
+      <tr><td>媒体 / 素材</td><td>Media</td></tr>
+      <tr><td>音频</td><td>Audio</td></tr>
+      <tr><td>文本</td><td>Text</td></tr>
+      <tr><td>贴纸</td><td>Stickers</td></tr>
+      <tr><td>特效</td><td>Effects</td></tr>
+      <tr><td>滤镜</td><td>Filters</td></tr>
+      <tr><td>转场</td><td>Transitions</td></tr>
+      <tr><td>调节</td><td>Adjust</td></tr>
+      <tr><td>动画</td><td>Animation</td></tr>
+      <tr><td>关键帧</td><td>Keyframe</td></tr>
+      <tr><td>蒙版</td><td>Mask</td></tr>
+      <tr><td>抠像 / 智能抠像</td><td>Cutout / Auto cutout</td></tr>
+      <tr><td>画中画</td><td>Overlay (PIP)</td></tr>
+      <tr><td>混合模式</td><td>Blend mode</td></tr>
+      <tr><td>变速</td><td>Speed</td></tr>
+      <tr><td>音量 / 降噪</td><td>Volume / Reduce noise</td></tr>
+      <tr><td>变声</td><td>Voice effects</td></tr>
+      <tr><td>字幕 / 自动字幕</td><td>Captions / Auto captions</td></tr>
+      <tr><td>防抖</td><td>Stabilization</td></tr>
+      <tr><td>美颜</td><td>Beauty</td></tr>
+      <tr><td>比例</td><td>Ratio (Aspect ratio)</td></tr>
+      <tr><td>导出</td><td>Export</td></tr>
+      <tr><td>草稿 / 新建草稿</td><td>Draft / New project</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2><span>6</span>Stock video: search, rename, tags</h2>
+    <p>Inside a project, open <strong>Media &rarr; Stock videos</strong> (or the <strong>Stock</strong> tab). Type what you want in English — “city timelapse”, “ocean waves” — and the clips appear and can be dragged straight onto the timeline. That is the searchable stock library your JianyingPro build has.</p>
+    <p>For <strong>your own</strong> clips, CapCut's media panel has folders but no tags. The workflow that gets you close:</p>
+    <ul>
+      <li>Keep one folder per topic, e.g. <code>Stock\Beach</code>, <code>Stock\City</code>.</li>
+      <li>Rename files as you save them, putting the tags in the name: <code>beach_sunset_drone_4k.mp4</code>.</li>
+      <li>In the media panel use the search field to filter by that name — typing “beach” or “drone” finds them.</li>
+    </ul>
+    <p class="note">True per-clip tagging with its own search box does not exist in CapCut. If you need it, it is a separate small web library — say the word and I will build it in this project.</p>
+  </div>
+
+  <div class="card">
+    <h2><span>7</span>What still asks for an account</h2>
+    <ul>
+      <li><strong>Works without signing in:</strong> importing media, editing, effects, local export, drafts on your PC.</li>
+      <li><strong>Asks for an account:</strong> cloud sync, team/shared space, some AI features, and on some versions the export button itself.</li>
+      <li>If export shows “Sign in required”, that is CapCut's own gate and it cannot be edited out of the installer — sign in, or export from JianyingPro for that one project.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2><span>8</span>If CapCut will not install in India</h2>
+    <p>CapCut's mobile apps are not distributed in India, and the desktop download sometimes refuses the region. Two English, login-free fallbacks that read the same drafts workflow:</p>
+    <ul>
+      <li><a href="https://www.blackmagicdesign.com/products/davinciresolve" target="_blank" rel="noopener">DaVinci Resolve</a> — free desktop editor, English, offline, no account, far more capable than CapCut for cutting.</li>
+      <li><a href="https://www.shotcut.org" target="_blank" rel="noopener">Shotcut</a> — free, open source, English, no account.</li>
+    </ul>
+    <p class="meta">Neither imports your JianyingPro drafts; you would rebuild the timeline there.</p>
+  </div>
+</div>
+</body>
+</html>
