@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkartist_op_web=self.webpackChunkartist_op_web||[]).push([[152],{11504:function(t,e,i){i.r(e);var s=i(96080),a=i(11527);e.default=function(){return(0,a.jsx)(s.Z,{initialShopTab:"sticker"})}}}]);

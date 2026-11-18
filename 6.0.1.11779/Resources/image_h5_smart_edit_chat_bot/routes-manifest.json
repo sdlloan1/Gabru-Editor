@@ -1,0 +1,23 @@
+{
+  "routeAssets": {
+    "chat-bot": {
+      "chunkIds": [
+        691,
+        740,
+        594,
+        822,
+        585
+      ],
+      "assets": [
+        "./static/js/lib-polyfill.ea84f3d7.js",
+        "./static/js/lib-react.8b9e498c.js",
+        "./static/js/822.e9078f5e.js",
+        "./static/css/chat-bot.26bfdeaa.css",
+        "./static/js/chat-bot.25deaba3.js"
+      ],
+      "referenceCssAssets": [
+        "./static/css/chat-bot.26bfdeaa.css"
+      ]
+    }
+  }
+}

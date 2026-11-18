@@ -1,0 +1,214 @@
+{
+  "source": {
+    "enableAsyncEntry": false,
+    "disableDefaultEntries": false,
+    "entriesDir": "./src/pages",
+    "configDir": "./config",
+    "apiDir": "./api",
+    "envVars": [
+      "IS_REACT18",
+      "CUSTOM_CLOSE_ERUDA",
+      "BUILD_TYPE",
+      "ENABLED_LOCAL_LOAD",
+      "JUPITER_TARGET",
+      "JUPITER_TARGET_PLATFORM"
+    ],
+    "globalVars": {
+      "__PACKAGE_VERSION": "1.3.0",
+      "XIGUA_HOST_BOE": "",
+      "VAS_DOMAIN_BOE": "",
+      "UPLOAD_HOST_BOE": ""
+    },
+    "alias": {
+      "@jupiter/plugin-runtime$": "/opt/tiger/compile_path/src/code.byted.org/xigua-fe/lv-creator-release/apps/lv-release/node_modules/.jupiter/.runtime-exports/index.js",
+      "@modern-js/runtime$": "/opt/tiger/compile_path/src/code.byted.org/xigua-fe/lv-creator-release/node_modules/.pnpm/@modern-js+runtime@1.22.7_4a66bc00b878bb8cd2104f686114ae4f/node_modules/@modern-js/runtime",
+      "@modern-js/runtime/plugins": "/opt/tiger/compile_path/src/code.byted.org/xigua-fe/lv-creator-release/apps/lv-release/node_modules/.jupiter/.runtime-exports/plugins.js",
+      "styled-components": "/opt/tiger/compile_path/src/code.byted.org/xigua-fe/lv-creator-release/node_modules/.pnpm/styled-components@5.3.6_281a4fa50a045c9112baf635f3bc27a7/node_modules/styled-components/dist/styled-components.cjs.js",
+      "@jupiter/plugin-runtime/plugins": "/opt/tiger/compile_path/src/code.byted.org/xigua-fe/lv-creator-release/apps/lv-release/node_modules/.jupiter/.runtime-exports/plugins.js"
+    },
+    "include": [
+      {},
+      {}
+    ]
+  },
+  "output": {
+    "assetPrefix": ".",
+    "htmlPath": "",
+    "jsPath": "static/js",
+    "cssPath": "static/css",
+    "mediaPath": "static/media",
+    "path": "dist",
+    "title": "",
+    "meta": {
+      "charset": {
+        "charset": "utf-8"
+      },
+      "viewport": "width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
+      "http-equiv": {
+        "http-equiv": "x-ua-compatible",
+        "content": "ie=edge"
+      },
+      "renderer": "webkit",
+      "layoutmode": "standard",
+      "imagemode": "force",
+      "wap-font-scale": "no",
+      "format-detection": "telephone=no"
+    },
+    "inject": "head",
+    "mountId": "root",
+    "favicon": "",
+    "disableHtmlFolder": true,
+    "disableCssModuleExtension": false,
+    "disableCssExtract": false,
+    "enableCssModuleTSDeclaration": false,
+    "disableMinimize": false,
+    "enableInlineStyles": false,
+    "enableInlineScripts": false,
+    "disableSourceMap": true,
+    "disableInlineRuntimeChunk": false,
+    "disableAssetsCache": false,
+    "enableLatestDecorators": false,
+    "polyfill": "entry",
+    "dataUriLimit": 10000,
+    "templateParameters": {},
+    "cssModuleLocalIdentName": "[name]__[local]--[hash:base64:5]",
+    "enableModernMode": false,
+    "disableNodePolyfill": false,
+    "enableTsLoader": false
+  },
+  "server": {
+    "baseUrl": "/",
+    "port": 8080
+  },
+  "dev": {
+    "assetPrefix": false,
+    "https": false
+  },
+  "deploy": {
+    "domain": "",
+    "gecko": {
+      "deploymentAccessKey": "82b9533f8aa3f5b3ae0b8a56f7fa3855",
+      "channel": "h5_export_publish"
+    }
+  },
+  "tools": {
+    "babel": [
+      null,
+      null
+    ],
+    "devServer": {
+      "client": {
+        "host": "local.ixigua.com",
+        "port": "80"
+      }
+    },
+    "webpackChain": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "less": {
+      "lessOptions": {
+        "javascriptEnabled": true,
+        "modifyVars": {
+          "color-primary-6": "#00C1CD",
+          "color-bg-popup": "#070709",
+          "btn-border-radius": "4px",
+          "btn-primary-color-text": "#FAFAFA",
+          "btn-primary-color-text_hover": "#FAFAFA",
+          "btn-primary-color-text_disabled": "#505057",
+          "btn-primary-color-text_active": "#FAFAFA",
+          "btn-primary-color-bg_disabled": "#213539",
+          "btn-primary-color-bg_hover": "#34cdd7",
+          "btn-primary-color-bg_active": "#004D52",
+          "btn-secondary-color-text": "#FAFAFA",
+          "btn-secondary-color-text_hover": "#FAFAFA",
+          "btn-secondary-color-text_disabled": "#505057",
+          "btn-secondary-color-text_active": "#FAFAFA",
+          "btn-secondary-color-bg": "#505057",
+          "btn-secondary-color-bg_disabled": "#29292D",
+          "btn-secondary-color-bg_hover": "#737378",
+          "btn-secondary-color-bg_active": "#202023"
+        }
+      }
+    }
+  },
+  "plugins": [],
+  "runtime": {
+    "features": {
+      "router": true,
+      "state": true
+    }
+  },
+  "runtimeByEntries": {},
+  "_raw": {
+    "dev": {},
+    "source": {
+      "entriesDir": "./src/pages",
+      "envVars": [
+        "CUSTOM_CLOSE_ERUDA",
+        "BUILD_TYPE",
+        "ENABLED_LOCAL_LOAD"
+      ],
+      "globalVars": {
+        "__PACKAGE_VERSION": "1.3.0",
+        "XIGUA_HOST_BOE": "",
+        "VAS_DOMAIN_BOE": "",
+        "UPLOAD_HOST_BOE": ""
+      }
+    },
+    "tools": {
+      "less": {
+        "lessOptions": {
+          "javascriptEnabled": true,
+          "modifyVars": {
+            "color-primary-6": "#00C1CD",
+            "color-bg-popup": "#070709",
+            "btn-border-radius": "4px",
+            "btn-primary-color-text": "#FAFAFA",
+            "btn-primary-color-text_hover": "#FAFAFA",
+            "btn-primary-color-text_disabled": "#505057",
+            "btn-primary-color-text_active": "#FAFAFA",
+            "btn-primary-color-bg_disabled": "#213539",
+            "btn-primary-color-bg_hover": "#34cdd7",
+            "btn-primary-color-bg_active": "#004D52",
+            "btn-secondary-color-text": "#FAFAFA",
+            "btn-secondary-color-text_hover": "#FAFAFA",
+            "btn-secondary-color-text_disabled": "#505057",
+            "btn-secondary-color-text_active": "#FAFAFA",
+            "btn-secondary-color-bg": "#505057",
+            "btn-secondary-color-bg_disabled": "#29292D",
+            "btn-secondary-color-bg_hover": "#737378",
+            "btn-secondary-color-bg_active": "#202023"
+          }
+        }
+      },
+      "devServer": {
+        "client": {
+          "host": "local.ixigua.com",
+          "port": "80"
+        }
+      }
+    },
+    "output": {
+      "disableSourceMap": true,
+      "disableHtmlFolder": true,
+      "htmlPath": "",
+      "assetPrefix": "."
+    },
+    "deploy": {
+      "gecko": {
+        "deploymentAccessKey": "82b9533f8aa3f5b3ae0b8a56f7fa3855",
+        "channel": "h5_export_publish"
+      }
+    },
+    "plugins": [],
+    "runtime": {
+      "features": {
+        "router": true,
+        "state": true
+      }
+    }
+  }
+}
